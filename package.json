@@ -1,0 +1,41 @@
+{
+  "name": "rock-cms",
+  "version": "1.0.0",
+  "description": "Rock CMS",
+  "main": "start.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node",
+    "webpack": "webpack --mode development",
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rock-Labs/Rock-CMS.git"
+  },
+  "keywords": [
+    "rock",
+    "cms",
+    "node",
+    "cms",
+    "cms"
+  ],
+  "author": "Chaz, Didarul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rock-Labs/Rock-CMS/issues"
+  },
+  "homepage": "https://github.com/Rock-Labs/Rock-CMS#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.7",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev": "^1.1.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
